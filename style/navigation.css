@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #BDD1A9;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  width: 50%;
+  color: #f2f2f2;
+
+  padding: 14px 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #619330;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #619330;
+  color: white;
+}
+
+
+.main {
+  padding: 16px;
+  margin-bottom: 44px;
+}
+
+.middle-nav {
+  bottom: -38px;
+  position: fixed;
+  width: 186px;
+  height: 25px;
+  padding-bottom: 23px;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 50px 50px;
+
+}
+
+.top-nav {
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  height: 12px;
+  background: #FAFAFA;
+
+}
+
+h3 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  margin-left: 25%;
+  position: relative;
+  margin-top: 0;
+  text-align: left;
+  transform: translate(0, 10%);
+}
+
+h4 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  margin-right: 25%;
+  position: relative;
+  margin-top: 0;
+  text-align: right;
+  transform: translate(0, 10%);
+}

@@ -1,0 +1,107 @@
+#arrow {
+    width: 45px;
+    height: 45px;
+    left: 14px;
+    top: 22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 574px 757px;
+}
+
+#bg {
+    background: url(https://ediz.goldeli.com/GraduationProject/images/bg3.jpg);
+}
+
+h2 {
+    margin: auto;
+    width: 250px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+
+}
+
+#bg-box1 {
+    width: 340px;
+    height: 540px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F5F5FA;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px;
+}
+
+#input-box1 {
+    width: 130px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 6px;
+    border: none;
+    background: #C4C4C4;
+    font-size: 23px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), 0px 0px 20px #FFFFFF;
+    border-radius: 15px;
+}
+
+#input-box1a {
+    width: 130px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 6px;
+    border: none;
+    background: #C4C4C4;
+    font-size: 23px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), 0px 0px 20px #FFFFFF;
+    border-radius: 15px;
+}
+
+#input-box2 {
+
+    width: 300px;
+    height: 50px;
+    margin-top: 19px;
+    margin: center;
+    background-color: #C4C4C4;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-size: 23px;
+
+    background-position: 10px 10px;
+}
+
+input[type=submit] {
+    -webkit-appearance: none;
+    width: 177px;
+    height: 71px;
+    margin-left: 73.5px;
+    margin-right: 73.5px;
+    margin-top: 45px;
+    background: #619330;
+    /* Shadow 3 */
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+input[type=submit]:hover {
+    background: #558624;
+}
