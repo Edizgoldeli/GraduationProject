@@ -3,7 +3,7 @@
 #There is menu with modules, sensors and camera selection
 #There is navigation with Home, Settings button and information space
 #Modules 
-#You can see your modules such as light, outlet, lock, curtains etc. 
+#You can see your modules such as light, outlet, curtains, locks etc. 
 #You can see the status of the modules through buttons text and color
 #You can see the last time that modules situation has changes
 # Sensors
