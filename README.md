@@ -1,5 +1,5 @@
 <h1> Smart Home System </h1>
-Live: https://ediz.goldeli.com/GraduationProject/html/
+Live: https://ediz.goldeli.com
 <h2>INTERFACE</h2>
 <br>*There is menu with modules, sensors and camera selection
 <br>*There is navigation with Home, Settings button and information space
